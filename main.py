@@ -17,4 +17,4 @@ tip = int(input("How much percentage tip would you lke to give?\n "))
 people = int(input("How many people to split the bill?\n "))
 bill_with_tip = tip / 100 * bill + bill
 
-print(round(bill_with_tip / people, 2))
+print("$" + "{:.2f}".format(bill_with_tip / people, 2))
